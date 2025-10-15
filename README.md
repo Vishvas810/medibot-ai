@@ -1,5 +1,10 @@
 # Build a Complete Medical Chatbot with LLMs LangChain Pinecone Flask AWS
 
+Medibot AI is an intelligent medical assistant that uses **Retrieval-Augmented Generation (RAG)** to provide accurate, context-based answers to health-related questions.  
+It combines **LangChain**, **Pinecone**, and **Gemini (Google Generative AI)** within a **Flask** framework to deliver fast and reliable chatbot responses.
+
+---
+
 # How to run?
 
 ### STEPS:
@@ -39,15 +44,22 @@ python store_index.py
 ```
 
 ```bash
-# Finally run the following command
+# Finally run the flask application
 python app.py
 ```
 
-Now,
+Then, open your browser and navigate to:
 
 ```bash
-open up localhost:
+http://127.0.0.1:8080/
 ```
+
+### Demo
+
+<video width="600" controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ### Techstack Used:
 
