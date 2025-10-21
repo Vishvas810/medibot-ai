@@ -1,4 +1,4 @@
-# Build a Complete Medical Chatbot with LLMs LangChain Pinecone Flask AWS
+# Build a Complete Medical Chatbot with LLMs, LangChain, Pinecone, Flask, and AWS
 
 Medibot AI is an intelligent medical assistant that uses **Retrieval-Augmented Generation (RAG)** to provide accurate, context-based answers to health-related questions.  
 It combines **LangChain**, **Pinecone**, and **Gemini (Google Generative AI)** within a **Flask** framework to deliver fast and reliable chatbot responses.
@@ -31,7 +31,7 @@ conda activate medibot
 pip install -r requirements.txt
 ```
 
-### Create a `.env` file in the root directory and add your Pinecone & openai credentials as follows:
+### Create a `.env` file in the root directory and add your Pinecone & Gemini credentials as follows:
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
@@ -56,7 +56,7 @@ http://127.0.0.1:8080/
 
 ### Demo
 
-[▶️ Watch the Demo](assets/demo.mp4)
+https://github.com/user-attachments/assets/ded3b97e-4425-499b-b2bb-4064d61460fd
 
 ### Techstack Used:
 
@@ -65,3 +65,4 @@ http://127.0.0.1:8080/
 - Flask
 - Gemini
 - Pinecone
+- AWS
